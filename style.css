@@ -5,19 +5,19 @@ body {
 
 header {
     justify-content: space-between;
-    padding: ;
+    padding:10px;
     margin-bottom: 20px;
     display: flex;
 }
 
 .button {
-    background-color: #36bbce;
+    background-color: #499273;
     color: white;
     text-decoration: none;
     padding: 15px;
     font-size: 24px;
     border-radius: 9px;
-    margin: 10px;
+    align-items: center;
 }
 
 nav {
@@ -25,8 +25,6 @@ nav {
     border-bottom: 5px solid white;
     padding: 25px 100px 25px 95px;
     justify-content: space-between;
-    display: flex;
-
 }
 
 .nav-link {
@@ -39,8 +37,8 @@ h1 {
     text-align: center;
     color: white;
     font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 p {
@@ -55,30 +53,30 @@ p {
 }
 
 article {
+        text-align: center;
     background-color: white;
-    padding:13.5px 22.5px 44px 22px;
+    padding:15px;
     width: 400px;
-    margin:20px;
-    text-align: center;
+    margin:15px;
 }
 
 .article-but {
     text-decoration: none;
-    background-color: grey;
+    background-color: #123652;
     color: black;
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
+    display: block;
 }
 
 footer {
-    background-color:#496D89;
-    padding: 42px;
-    display: flex;
+    background-color: #496D89;
+    padding:10px;
 }
 
 footer a {
-    margin-right: 70px;
+    margin-right: ;
 }
 
 footer p {
